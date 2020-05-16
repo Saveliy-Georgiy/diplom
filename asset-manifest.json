@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/diplom/static/css/main.f03ab75b.chunk.css",
+    "main.js": "/diplom/static/js/main.6810ca72.chunk.js",
+    "main.js.map": "/diplom/static/js/main.6810ca72.chunk.js.map",
+    "runtime-main.js": "/diplom/static/js/runtime-main.fdd88d16.js",
+    "runtime-main.js.map": "/diplom/static/js/runtime-main.fdd88d16.js.map",
+    "static/js/2.db450aac.chunk.js": "/diplom/static/js/2.db450aac.chunk.js",
+    "static/js/2.db450aac.chunk.js.map": "/diplom/static/js/2.db450aac.chunk.js.map",
+    "index.html": "/diplom/index.html",
+    "precache-manifest.9dd922e7d37d6acefed8198ab605b448.js": "/diplom/precache-manifest.9dd922e7d37d6acefed8198ab605b448.js",
+    "service-worker.js": "/diplom/service-worker.js",
+    "static/css/main.f03ab75b.chunk.css.map": "/diplom/static/css/main.f03ab75b.chunk.css.map",
+    "static/js/2.db450aac.chunk.js.LICENSE.txt": "/diplom/static/js/2.db450aac.chunk.js.LICENSE.txt",
+    "static/media/JS.png": "/diplom/static/media/JS.bd206844.png",
+    "static/media/MyAvatar.jpg": "/diplom/static/media/MyAvatar.71889b9c.jpg",
+    "static/media/Projects.module.css": "/diplom/static/media/social_network.6528eaf4.PNG",
+    "static/media/reactjs.png": "/diplom/static/media/reactjs.82a318cc.png",
+    "static/media/redux.png": "/diplom/static/media/redux.1535aa30.png",
+    "static/media/viber.svg": "/diplom/static/media/viber.5fcb9b74.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fdd88d16.js",
+    "static/js/2.db450aac.chunk.js",
+    "static/css/main.f03ab75b.chunk.css",
+    "static/js/main.6810ca72.chunk.js"
+  ]
+}
