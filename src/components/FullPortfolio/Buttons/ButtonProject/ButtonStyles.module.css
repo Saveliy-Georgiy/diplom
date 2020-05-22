@@ -1,0 +1,22 @@
+.btnSubmit {
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    border: none;
+    margin: 0 0 20px;
+    padding: 0;
+    position: relative;
+    font-size: 24px;
+}
+
+.buttonPosition{
+    position: absolute;
+    top: 50%;
+    left: 85px;
+    margin-top: -25px;
+
+}

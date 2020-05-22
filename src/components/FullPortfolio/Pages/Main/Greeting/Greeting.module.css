@@ -1,0 +1,147 @@
+.greeting {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    padding: 5px;
+}
+
+.greeting span:nth-child(1) {
+    font-size: 16px;
+}
+
+.greeting span:nth-child(2),
+.greeting span:nth-child(2) span {
+    font-weight: 700;
+    font-stretch: normal;
+    font-size: 50px;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    font-family: "Exo 2", sans-serif;
+    position: relative;
+    z-index: 0;
+}
+
+/*.greeting span:nth-child(2) span:before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    background-color: #0059f0;
+    bottom: -5px;
+    z-index: -1;
+}*/
+
+.greeting span:nth-child(2) span:nth-child(1):before {
+    width: 268px;
+    right: 0;
+}
+
+.greeting span:nth-child(2) span:nth-child(2):before {
+    width: 225px;
+}
+
+h1 {
+    font-size: 27px;
+    margin: 0;
+}
+
+@media screen and (max-width: 1104px) {
+    .greeting span:nth-child(2) span:nth-child(1):before {
+        width: 262px;
+        right: 4px;
+    }
+
+    .greeting span:nth-child(2) span:nth-child(2):before {
+        right: 95px;
+    }
+}
+
+@media screen and (max-width: 887px) {
+    .greeting span:nth-child(2),
+    .greeting span:nth-child(2) span {
+        font-size: 35px;
+    }
+
+    .greeting h1 {
+        font-size: 22px;
+    }
+
+    .greeting span:nth-child(2) span:before {
+        height: 15px;
+    }
+
+    .greeting span:nth-child(2) span:nth-child(1):before {
+        width: 196px;
+    }
+
+    .greeting span:nth-child(2) span:nth-child(2):before {
+        right: 3px;
+        width: 172px;
+    }
+
+    .greeting span:nth-child(1),
+    .greeting span:nth-child(2),
+    .greeting span:nth-child(2) span,
+    .greeting h1 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 712px) {
+    .greeting span:nth-child(2) span:nth-child(1):before {
+        width: 196px;
+    }
+
+    .greeting span:nth-child(2) span:nth-child(2):before {
+        width: 172px;
+    }
+}
+
+@media screen and (max-width: 538px) {
+    .greeting span:nth-child(2),
+    .greeting span:nth-child(2) span {
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+    }
+
+    .greeting h1 {
+        font-size: 16px;
+    }
+
+    .greeting span:nth-child(2) span:nth-child(1):before {
+        width: 150px;
+    }
+
+    .greeting span:nth-child(2) span:nth-child(2):before {
+        width: 133px;
+    }
+
+    .greeting span:nth-child(2) span:before {
+        height: 13px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .greeting span:nth-child(2),
+    .greeting span:nth-child(2) span {
+        display: flex;
+        justify-content: center;
+        font-size: 21px;
+    }
+
+    .greeting span:nth-child(2) span:nth-child(1):before {
+        width: 132px;
+    }
+
+    .greeting span:nth-child(2) span:nth-child(2):before {
+        width: 118px;
+    }
+
+    .greeting span:nth-child(2) span:before {
+        height: 11px;
+    }
+    .greeting span:nth-child(1) {
+        font-size: 12px;
+    }
+}

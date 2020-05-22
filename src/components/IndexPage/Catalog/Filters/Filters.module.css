@@ -1,0 +1,46 @@
+.mainBlock {
+    width: 17%;
+    line-height: 1.2;
+}
+
+.header {
+    padding: 10px 10px 0 10px;
+
+}
+
+h2{
+    margin: 0;
+}
+
+.specializationsBlock {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1480px) {
+    .mainBlock {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 865px) {
+    .mainBlock {
+        width: 100%;
+    }
+    .specializationsBlock {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .specializationsBlock {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 432px) {
+    .specializationsBlock {
+        flex-direction: column;
+    }
+}

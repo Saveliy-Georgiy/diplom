@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    width: 300px;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.picture {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.knowledge {
+    display: flex;
+}
+
+.borderOfDescription {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.descriptionOfKnowledge {
+    padding: 10px 0 25px 0;
+    text-align: center;
+    width: 100%;
+}
+
+@media screen and (max-width: 374px) {
+    .container {
+        width: 100%;
+    }
+}

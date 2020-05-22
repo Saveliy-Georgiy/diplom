@@ -1,0 +1,39 @@
+.container {
+    margin: 20px;
+    width: 320px;
+}
+
+.project {
+    height: 350px;
+    width: 320px;
+    position: relative;
+}
+
+.picture {
+    height: 350px;
+    width: 320px;
+    background-color: black;
+    opacity: 0.4;
+}
+
+.containerNameAndDescription {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.name {
+    margin: 15px 0 0 15px;
+}
+
+.description {
+    margin: 0 0 15px 15px;
+}
+
+@media screen and (max-width: 374px) {
+    .container .picture {
+        width: 100%;
+    }
+}

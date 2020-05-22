@@ -1,0 +1,23 @@
+.main {
+    min-height: 100vh;
+    background-color: #1f1f20;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container {
+    padding-top: 50px;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+@media screen and (max-width: 887px) {
+    .container {
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,36 @@
+.footer {
+    height: 180px;
+    background-color: #252527;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.myFooter{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.socialBlock {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.text {
+    padding: 10px;
+}
+
+@media screen and (max-width: 626px) {
+    .socialBlock {
+        width: 100%;
+    }
+}
+
+

@@ -1,0 +1,100 @@
+.mainBlock {
+
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.welcome_video {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.overlay {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center !important;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.welcome_video, .welcome_video .overlay {
+    min-height: 100vh;
+}
+
+.welcome_video .video_background {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: auto;
+    height: auto;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -1;
+}
+
+video .overlay{
+    min-height: 100vh;
+}
+
+.span {
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.welcome_video p {
+    margin: 0 22%;
+}
+
+h1 {
+    font-size: 42px !important;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.info {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 475px) {
+    .span {
+        font-size: 20px;
+        font-weight: 200;
+    }
+
+    h1 {
+        font-size: 23px !important;
+    }
+
+    .info {
+        font-size: 14px;
+    }
+}
+
+

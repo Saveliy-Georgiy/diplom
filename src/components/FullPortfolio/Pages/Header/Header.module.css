@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+}

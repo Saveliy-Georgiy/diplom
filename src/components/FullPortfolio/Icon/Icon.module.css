@@ -1,0 +1,21 @@
+.square {
+    height: 60px;
+    width: 60px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    margin: 0 20px;
+}
+
+@media screen and (max-width: 435px) {
+    .square {
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .square {
+        height: 50px;
+        width: 50px;
+    }
+}

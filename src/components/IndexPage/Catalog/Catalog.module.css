@@ -1,0 +1,12 @@
+.mainBlock {
+    min-height: 100vh;
+    background-color: #252527;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 865px) {
+    .mainBlock {
+    flex-direction: column;
+    }
+}
