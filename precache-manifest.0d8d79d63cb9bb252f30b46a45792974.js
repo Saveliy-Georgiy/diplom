@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "864f2be774e1cad86432e563637a9293",
+    "revision": "d42937f7dbc73319c3cbcb06a02d0d70",
     "url": "/diplom/index.html"
   },
   {
-    "revision": "fedece6388117cd3119e",
+    "revision": "5b3c32c2e93840bbcb06",
     "url": "/diplom/static/css/main.5bd26dd3.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/diplom/static/js/2.2acf06b8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fedece6388117cd3119e",
-    "url": "/diplom/static/js/main.765c4a65.chunk.js"
+    "revision": "5b3c32c2e93840bbcb06",
+    "url": "/diplom/static/js/main.a335ec87.chunk.js"
   },
   {
     "revision": "19a1e56a74204b504acf",
