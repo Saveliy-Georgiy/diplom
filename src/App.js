@@ -406,7 +406,7 @@ class App extends React.Component {
             {
                 id: 6,
                 name: "Dmitriy Tsybulski",
-                age: 20,
+                age: 34,
                 position: "full stack developer",
                 photo: "images/photos/tsybulski.jpg",
                 specializations: [
