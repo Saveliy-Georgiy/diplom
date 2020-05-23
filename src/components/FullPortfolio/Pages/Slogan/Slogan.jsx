@@ -12,7 +12,7 @@ class Slogan extends React.Component{
 
     activateContacts = () => {
         this.setState({displayContacts: true});
-        setTimeout(() => window.scrollTo(0,document.body.scrollHeight), 500)
+        setTimeout(() => window.scrollTo(0, document.body.scrollHeight), 500)
     };
 
     render = () => {
