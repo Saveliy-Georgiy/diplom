@@ -34,9 +34,9 @@ class ButtonWindow extends React.Component {
                 <button className={styles.btnSubmit} onClick={this.activateModalWindow}>{this.props.name}</button>
                 <div className={s.modalBackground + ' ' + display}>
                     <div className={s.modalWindow}>
-                        <h3>Здравствуйте!</h3>
-                        <p>Вы успешно отправили заявку.</p>
-                        <button onClick={this.onClickClose}>Закрыть</button>
+                        <h3>Hello!</h3>
+                        <p>You have successfully submitted an application.</p>
+                        <button onClick={this.onClickClose}>Close</button>
                     </div>
                 </div>
             </div>
