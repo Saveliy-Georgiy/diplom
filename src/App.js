@@ -141,13 +141,13 @@ class App extends React.Component {
                         name: "Drupal",
                         isDone: false,
                         url: "images/icons/drupal.png",
-                        description: "",
+                        description: "Drupal is a content management system, also used as a framework for web applications, written in PHP and using a relational database as a data warehouse. Drupal is free GPL-protected software and is being developed by enthusiasts from around the world.",
                     },
                     {
                         name: "React",
                         isDone: false,
                         url: "images/icons/reactjs.png",
-                        description: "Drupal is a content management system, also used as a framework for web applications, written in PHP and using a relational database as a data warehouse. Drupal is free GPL-protected software and is being developed by enthusiasts from around the world.",
+                        description: "React is an open source JavaScript library for developing user interfaces. React is developed and maintained by Facebook, Instagram, and the community of individual developers and corporations. React can be used to develop single-page and mobile applications.",
                     },
                     {
                         name: "Vue",
